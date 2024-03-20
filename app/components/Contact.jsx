@@ -1,4 +1,4 @@
-import Button from "./ui/ButtonNav";
+import ButtonMain from "./ui/ButtonMain";
 const Contact = () => {
   return (
     <section className="bg-[#4B2484]  py-20">
@@ -11,7 +11,7 @@ const Contact = () => {
           <br />
           access to concise insights with us.
         </span>
-        <Button />
+        <ButtonMain />
       </div>
     </section>
   );

@@ -1,5 +1,5 @@
 import { FaCheck } from "react-icons/fa6";
-import Button from "./ui/ButtonNav";
+import ButtonMain from "./ui/ButtonMain";
 const features = [
   "End the endless search with our trusted model",
   "Deliver immediate answers at your fingertips",
@@ -29,7 +29,7 @@ const Hero = () => {
             </li>
           ))}
         </ul>
-        <Button />
+        <ButtonMain />
       </div>
     </section>
   );

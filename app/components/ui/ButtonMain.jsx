@@ -1,16 +1,15 @@
 "use client";
 import React, { useState } from "react";
-import { FiArrowRight } from "react-icons/fi";
 import { motion } from "framer-motion";
-
+import { FiArrowRight } from "react-icons/fi";
 import Popup from "../Popup";
 
-const Button = () => {
+const ButtonMain = () => {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
 
   return (
     <>
-      <motion.div
+       <motion.div
         onClick={() => setIsPopupOpen(true)}
         whileHover={{
           scale: 1.1,
@@ -25,4 +24,4 @@ const Button = () => {
   );
 };
 
-export default Button;
+export default ButtonMain;
