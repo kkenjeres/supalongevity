@@ -1,5 +1,5 @@
 import Contact from "./components/Contact";
-import FAQ from "./components/Faq";
+import FAQ from "./components/FAQ";
 import Hero from "./components/Hero";
 import Nav from "./components/Nav";
 import LongevityGuide from "./components/LongevityGuide";
