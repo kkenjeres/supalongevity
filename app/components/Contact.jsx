@@ -1,4 +1,4 @@
-import Button from "./ui/Button";
+import Button from "../components/ui/Button";
 const Contact = () => {
   return (
     <section className="bg-[#4B2484]  py-20">
