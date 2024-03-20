@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "../components/ui/ButtonNav";
+import ButtonNav from "./ui/ButtonNav";
 const Nav = () => {
   return (
     <header className="w-[90%] md:w-[80%] m-auto p-4 absolute top-2 right-0 left-0 z-10">
@@ -8,7 +8,7 @@ const Nav = () => {
           <li>supalongevity</li>
           <li>FAQ</li>
           <li>
-            <Button />
+            <ButtonNav />
           </li>
         </ul>
       </nav>

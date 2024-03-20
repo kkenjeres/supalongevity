@@ -1,6 +1,5 @@
-import Button from '../components/ui/Button';
 import { FaCheck } from "react-icons/fa6";
-
+import Button from "./ui/Button";
 const features = [
   "End the endless search with our trusted model",
   "Deliver immediate answers at your fingertips",

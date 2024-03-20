@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import Popup from "../Popup";
 
-const Button = () => {
+const ButtonNav = () => {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
 
   return (
@@ -23,4 +23,4 @@ const Button = () => {
   );
 };
 
-export default Button;
+export default ButtonNav;
