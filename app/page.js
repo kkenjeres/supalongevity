@@ -1,7 +1,6 @@
 import Contact from "./components/Contact";
 import FAQ from "./components/FAQ";
 import Hero from "./components/Hero";
-import Nav from "./components/Nav";
 import LongevityGuide from "./components/LongevityGuide";
 import Chat from "./components/Chat";
 import Cases from "./components/Cases";
