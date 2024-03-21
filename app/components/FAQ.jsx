@@ -11,7 +11,7 @@ const FAQ = () => {
     setActiveIndex(activeIndex === index ? null : index);
 
   return (
-    <section className="bg-[#F9E9D2]  py-20 " id="faqSection ">
+    <section className="bg-[#F9E9D2]  py-20 " id="faqsection">
       <div className="w-[90%] md:w-[80%] m-auto md:flex justify-around">
         <div className="mb-10 md:mb-0">
           <small className="text-[14px] text-[#399373]">FAQ</small>
